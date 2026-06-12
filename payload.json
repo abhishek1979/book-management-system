@@ -1,0 +1,17 @@
+{
+  "book_id": 101,
+  "title": "Python in Action",
+  "author": "Abhishek",
+  "price": 500,
+  "count": 2,
+  "is_available": true
+}
+
+{
+  "book_id": 101,
+  "title": "Python in Action",
+  "author": "Abhishek",
+  "price": 500,
+  "count": 2,
+  "is_available": true
+}

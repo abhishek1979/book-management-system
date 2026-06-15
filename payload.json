@@ -1,17 +1,26 @@
-{
-  "book_id": 101,
-  "title": "Python in Action",
-  "author": "Abhishek",
-  "price": 500,
-  "count": 2,
-  "is_available": true
-}
-
-{
-  "book_id": 101,
-  "title": "Python in Action",
-  "author": "Abhishek",
-  "price": 500,
-  "count": 2,
-  "is_available": true
-}
+[
+  {
+    "book_id": "101",
+    "title": "Python in Action",
+    "author": "Abhishek",
+    "price": 500,
+    "count": 2,
+    "is_available": true
+  },
+  {
+    "book_id": "102",
+    "title": "Python in Nutshell",
+    "author": "Abhishek",
+    "price": 300,
+    "count": 3,
+    "is_available": true
+  },
+  {
+    "book_id": "103",
+    "title": "Sprint in Action",
+    "author": "Abhishek",
+    "price": 400,
+    "count": 3,
+    "is_available": true
+  }
+]

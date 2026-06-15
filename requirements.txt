@@ -9,3 +9,7 @@ pydantic-core
 pydantic-settings
 
 python-dotenv
+
+streamlit
+
+requests

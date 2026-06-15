@@ -17,15 +17,16 @@ class MainApplication:
 
         # Access the variables
         app_name = os.getenv('APP_NAME')
-        app_version = os.getenv('APP_VERSION')    
-
-        self.app = FastAPI(title=app_name, version=app_version)
+        app_version = os.getenv('APP_VERSION') 
+        app_description = os.getenv('APP_DESCRIPTION') 
+        
+        self.app = FastAPI(title=app_name, description = app_description, version=app_version)
 
         # Initialize Book Admin API
         book_admin_api = BookAdminAPI()       
 
         # Include Router
-        self.app.include_router(book_admin_api.router)        
+        self.app.include_router(book_admin_api.router, tags=["Book Management Service API"])        
 
     def get_app(self):
         return self.app
